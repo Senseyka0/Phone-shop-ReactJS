@@ -1,0 +1,85 @@
+.cart {
+  & h3 {
+    margin-top: 30px;
+  }
+  width: 1030px;
+  margin-top: 40px;
+  border-top: 1px solid #dfdede;
+  text-align: left;
+  &-table {
+    margin-top: 30px;
+    & thead {
+      font-size: 18px;
+      & tr {
+        & .imgHead {
+          width: 160px;
+        }
+        & .infoHead {
+          width: 380px;
+        }
+        & .priceHead {
+          width: 140px;
+          text-align: right;
+        }
+        & .quantityHead {
+          width: 140px;
+          text-align: right;
+        }
+        & .totalHead {
+          text-align: right;
+          width: 140px;
+        }
+      }
+    }
+    &-subtotal {
+      text-align: right;
+      float: right;
+      & h4 {
+        margin-top: 15px;
+        font-size: 18px;
+        font-weight: 500;
+      }
+      & p {
+        margin-top: 15px;
+      }
+      .buttons {
+        margin-top: 15px;
+        display: flex;
+        & .continue {
+          width: 180px;
+          border: 2px solid #292929;
+          background-color: #fff;
+          cursor: pointer;
+          margin-bottom: 15px;
+          text-align: center;
+          padding: 13px 10px 10px 10px;
+          color: #292929;
+          margin-right: 20px;
+          &:hover {
+            background-color: darken(#fff, 2%);
+          }
+          &:active {
+            background-color: darken(#fff, 10%);
+          }
+        }
+        & .checkOut {
+          font-size: 16px;
+          width: 120px;
+          margin-bottom: 15px;
+          cursor: pointer;
+          text-align: center;
+          padding: 15px 10px;
+          background-color: #292929;
+          border: 1px solid #292929;
+          color: #fff;
+          &:hover {
+            background-color: darken(#292929, 2%);
+          }
+          &:active {
+            background-color: darken(#292929, 10%);
+          }
+        }
+      }
+    }
+  }
+}

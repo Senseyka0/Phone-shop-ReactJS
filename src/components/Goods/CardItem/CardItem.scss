@@ -1,0 +1,29 @@
+.cardItem {
+  margin-top: 27px;
+  margin-right: 20px;
+  transition: 0.2s ease-in;
+  &:hover {
+    transform: translate(1px, -1px);
+    p {
+      opacity: 1 !important;
+    }
+  }
+  & img {
+    width: 300px;
+    height: 340px;
+    cursor: pointer;
+  }
+  & p {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 16px;
+    opacity: 0.8;
+  }
+  &__name {
+    color: #000;
+    cursor: pointer;
+  }
+  &__price {
+    color: #817f7f;
+  }
+}

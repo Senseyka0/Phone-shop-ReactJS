@@ -1,0 +1,282 @@
+{
+  "goods": {
+    "iphone": [
+      {
+        "id": "1",
+        "name": "Iphone 12 Pro Max",
+        "price": 1099,
+        "img": [
+          {
+            "url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-12-pro-max-graphite-hero?wid=470&hei=556&fmt=png-alpha&.v=1601620623000",
+            "name": "Black"
+          },
+          {
+            "url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-12-pro-max-silver-hero?wid=470&hei=556&fmt=png-alpha&.v=1601620623000",
+            "name": "White"
+          },
+          {
+            "url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-12-pro-max-gold-hero?wid=470&hei=556&fmt=png-alpha&.v=1601620621000",
+            "name": "Gold"
+          },
+          {
+            "url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-12-pro-max-blue-hero?wid=470&hei=556&fmt=png-alpha&.v=1601620620000",
+            "name": "Blue"
+          }
+        ],
+        "capacity": [128, 256, 512]
+      },
+      {
+        "id": "2",
+        "name": "Iphone 12 Pro",
+        "price": 999,
+        "img": [
+          {
+            "url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-12-pro-graphite-hero?wid=470&hei=556&fmt=png-alpha&.v=1601620625000",
+            "name": "Black"
+          },
+          {
+            "url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-12-pro-silver-hero?wid=470&hei=556&fmt=png-alpha&.v=1601620625000",
+            "name": "White"
+          },
+          {
+            "url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-12-pro-gold-hero?wid=470&hei=556&fmt=png-alpha&.v=1601620621000",
+            "name": "Gold"
+          },
+          {
+            "url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-12-pro-blue-hero?wid=470&hei=556&fmt=png-alpha&.v=1601620623000",
+            "name": "Blue"
+          }
+        ],
+        "capacity": [128, 256, 512]
+      },
+      {
+        "id": "3",
+        "name": "Iphone 12",
+        "price": 799,
+        "img": [
+          {
+            "url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-12-white-select-2020?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1601830934000",
+            "name": "White"
+          },
+          {
+            "url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-12-black-select-2020?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1601684204000",
+            "name": "Black"
+          },
+          {
+            "url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-12-blue-select-2020?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1601830934000",
+            "name": "Blue"
+          },
+          {
+            "url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-12-green-select-2020?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1601830929000",
+            "name": "Green"
+          },
+          {
+            "url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-12-red-select-2020?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1601830933000",
+            "name": "Red"
+          }
+        ],
+        "capacity": [64, 128, 256]
+      },
+      {
+        "id": "4",
+        "name": "Iphone 12 mini",
+        "price": 699,
+        "img": [
+          {
+            "url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-12-mini-white-select-2020?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1601830932000",
+            "name": "White"
+          },
+          {
+            "url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-12-mini-black-select-2020?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1601830928000",
+            "name": "Black"
+          },
+          {
+            "url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-12-mini-blue-select-2020?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1601830930000",
+            "name": "Blue"
+          },
+          {
+            "url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-12-mini-green-select-2020?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1601830931000",
+            "name": "Green"
+          },
+          {
+            "url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-12-mini-red-select-2020?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1601830931000",
+            "name": "Red"
+          }
+        ],
+        "capacity": [64, 128, 256]
+      },
+      {
+        "id": "5",
+        "name": "Iphone SE",
+        "price": 400,
+        "img": [
+          {
+            "url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-se-white-select-2020?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1586574259457",
+            "name": "White"
+          },
+          {
+            "url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-se-black-select-2020?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1586574260051",
+            "name": "Black"
+          },
+          {
+            "url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-se-red-select-2020?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1586574260319",
+            "name": "Red"
+          }
+        ],
+        "capacity": [64, 128, 256]
+      },
+      {
+        "id": "6",
+        "name": "Iphone 11",
+        "price": 599,
+        "img": [
+          {
+            "url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone11-white-select-2019?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1566956148115",
+            "name": "White"
+          },
+          {
+            "url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone11-black-select-2019?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1566956144418",
+            "name": "Black"
+          },
+          {
+            "url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone11-green-select-2019?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1566956144838",
+            "name": "Green"
+          },
+          {
+            "url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone11-yellow-select-2019?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1568141245782",
+            "name": "Yellow"
+          },
+          {
+            "url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone11-purple-select-2019?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1566960958082",
+            "name": "Purple"
+          },
+          {
+            "url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone11-red-select-2019?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1566956144763",
+            "name": "Red"
+          }
+        ],
+        "capacity": [64, 128, 256]
+      }
+    ],
+    "mac": [
+      {
+        "id": "1",
+        "name": "MacBook Pro 13-inch",
+        "price": 1299,
+        "img": [
+          {
+            "url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp13touch-space-select-202005?wid=904&hei=840&fmt=jpeg&qlt=80&op_usm=0.5,0.5&.v=1587460552755",
+            "name": "Grey"
+          },
+          {
+            "url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp13touch-silver-select-202005?wid=904&hei=840&fmt=jpeg&qlt=80&op_usm=0.5,0.5&.v=1587459986844",
+            "name": "Silver"
+          }
+        ],
+        "capacity": [256, 512, 1000]
+      }
+    ],
+    "ipad": [
+      {
+        "id": "1",
+        "name": "iPad Pro 11-inch",
+        "price": 799,
+        "img": [
+          {
+            "url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-pro-11-select-cell-spacegray-202003?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1583544704305",
+            "name": "Grey"
+          },
+          {
+            "url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-pro-11-select-cell-silver-202003?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1583541571656",
+            "name": "Silver"
+          }
+        ],
+        "capacity": [128, 256, 512, 1000]
+      },
+      {
+        "id": "2",
+        "name": "iPad Pro 12.9-inch",
+        "price": 999,
+        "img": [
+          {
+            "url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-pro-12-select-wifi-spacegray-202003?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1583552356577",
+            "name": "Space Grey"
+          },
+          {
+            "url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-pro-12-select-wifi-silver-202003?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1583550102533",
+            "name": "Silver"
+          }
+        ],
+        "capacity": [128, 256, 512, 1000]
+      },
+      {
+        "id": "3",
+        "name": "iPad Air",
+        "price": 599,
+        "img": [
+          {
+            "url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-air-select-wifi-spacegray-202009?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1598650646000",
+            "name": "Space Grey"
+          },
+          {
+            "url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-air-select-wifi-silver-202009?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1598650645000",
+            "name": "Silver"
+          },
+          {
+            "url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-air-select-wifi-gold-202009?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1598650644000",
+            "name": "Rose Gold"
+          },
+          {
+            "url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-air-select-wifi-green-202009?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1598650644000",
+            "name": "Green"
+          },
+          {
+            "url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-air-select-wifi-blue-202009?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1598650644000",
+            "name": "Sky Blue"
+          }
+        ],
+        "capacity": [64, 256]
+      },
+      {
+        "id": "4",
+        "name": "iPad",
+        "price": 329,
+        "img": [
+          {
+            "url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-2020-hero-space-wifi-select?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1598915064000",
+            "name": "Space Grey"
+          },
+          {
+            "url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-2020-hero-silver-wifi-select?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1598915073000",
+            "name": "Silver"
+          },
+          {
+            "url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-2020-hero-gold-wifi-select?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1598915069000",
+            "name": "Gold"
+          }
+        ],
+        "capacity": [32, 128]
+      },
+      {
+        "id": "5",
+        "name": "iPad mini",
+        "price": 399,
+        "img": [
+          {
+            "url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-mini-select-wifi-spacegray-201911?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1573825378087",
+            "name": "Space Grey"
+          },
+          {
+            "url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-mini-select-wifi-silver-201911?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1573825370078",
+            "name": "Silver"
+          },
+          {
+            "url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-mini-select-wifi-gold-201911?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1573825318739",
+            "name": "Gold"
+          }
+        ],
+        "capacity": [64, 256]
+      }
+    ]
+  }
+}

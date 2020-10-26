@@ -1,0 +1,22 @@
+* {
+  outline: none;
+  font-family: "Nanum Gothic";
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  text-decoration: none;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  .store {
+    margin-top: 35px;
+    font-size: 32px;
+  }
+}
+
+.content {
+  display: flex;
+}

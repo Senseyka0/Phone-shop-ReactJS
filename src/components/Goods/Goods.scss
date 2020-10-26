@@ -1,0 +1,17 @@
+.goods {
+  width: 1030px;
+  min-height: 1000px;
+  border-top: 1px solid #dfdede;
+  margin-top: 40px;
+  &__title {
+    margin-top: 15px;
+    font-size: 28px;
+    text-align: center;
+    font-weight: 400;
+  }
+  &-items {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+}

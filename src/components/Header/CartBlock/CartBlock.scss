@@ -1,0 +1,17 @@
+.header-cartBlock {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+  color: #000;
+  &:hover {
+    padding-right: 5px;
+  }
+  & p {
+  }
+  & svg {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+  }
+}

@@ -1,0 +1,31 @@
+.cart-table tbody {
+  font-size: 16px;
+  & tr {
+    & .imgBody {
+      & img {
+        margin-top: 15px;
+        width: 140px;
+        height: 160px;
+      }
+    }
+    & .infoBody {
+      & p {
+        margin-top: 10px;
+        font-weight: 500;
+      }
+    }
+    & .priceBody {
+      text-align: right;
+    }
+    & .quantityBody {
+      text-align: right;
+      & input {
+        padding: 10px;
+        width: 30px;
+      }
+    }
+    & .totalBody {
+      text-align: right;
+    }
+  }
+}
