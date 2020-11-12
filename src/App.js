@@ -12,6 +12,7 @@ import ProductPage from "./components/Goods/ProductPage/ProductPage";
 import Cart from "./components/Cart/Cart";
 
 import "./App.scss";
+import Checkout from "./components/Checkout/Checkout";
 
 const App = () => {
   const allGoods = DB.goods.iphone.concat(DB.goods.mac, DB.goods.ipad);
@@ -49,6 +50,11 @@ const App = () => {
                 />
               )}
             />
+            <Route
+              path="/checkout"
+              render={() => <Checkout cartProducts={addedToCartProduct} />}
+            />
+
             <Route
               exact
               path="/iphones"

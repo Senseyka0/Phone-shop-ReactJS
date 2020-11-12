@@ -1,8 +1,9 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
+import { NavLink } from "react-router-dom";
 
 import "./CartProduct.scss";
 
-function CartProduct({ product, changeSum, change }) {
+function CartProduct({ product, addSum, minusSum, addTempSum, setRealSum, isLast }) {
   const [totalPriceOfProduct, seTotalPriceOfProduct] = useState(product.price);
   const [amountOfProduct, setAmountOfProduct] = useState(1);
 
@@ -10,42 +11,34 @@ function CartProduct({ product, changeSum, change }) {
     if (isNaN(newAmount) || newAmount <= 0) {
       setAmountOfProduct(1);
     } else {
-      change(product.price * amountOfProduct);
+      minusSum(product.price * amountOfProduct);
       setAmountOfProduct(+newAmount);
-      // // seTotalPriceOfProduct(+product.price * +newAmount);
-
-      // if (totalPriceOfProduct > 0) {
-      //   change(+product.price * +(newAmount - 1));
-      // }
-      // changeSum(+product.price * +newAmount);
     }
   };
 
   useEffect(() => {
     seTotalPriceOfProduct(product.price * amountOfProduct);
-  }, [amountOfProduct]);
-
-  const firstTime = useRef(true);
+  }, [amountOfProduct, product.price]);
 
   useEffect(() => {
-    if (firstTime.current) {
-      firstTime.current = false;
-    } else {
-      change(totalPriceOfProduct - product.price * (amountOfProduct - 1));
-      changeSum(totalPriceOfProduct);
-    }
-  }, [totalPriceOfProduct]);
+    minusSum(totalPriceOfProduct - product.price * (amountOfProduct - 1));
+
+    addSum(totalPriceOfProduct);
+  }, [addSum, amountOfProduct, minusSum, product.price, totalPriceOfProduct]);
 
   useEffect(() => {
-    changeSum(totalPriceOfProduct);
-  }, []);
+    addTempSum(totalPriceOfProduct);
+    if (isLast) setRealSum();
+  }, [addTempSum, isLast, setRealSum, totalPriceOfProduct]);
 
   return (
     <>
       <tbody>
         <tr>
           <td className="imgBody">
-            <img src={product.color} alt="Product" />
+            <NavLink to={`/products/${product.name}`}>
+              <img src={product.color} alt="Product" />
+            </NavLink>
           </td>
           <td className="infoBody">
             <h4>{product.name}</h4>
